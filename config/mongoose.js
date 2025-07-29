@@ -1,5 +1,4 @@
-require('dotenv').config();
-
+//require('dotenv').config();
 // require mongoose
 const mongoose = require('mongoose');
 // connect to database
@@ -13,3 +12,4 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
     console.log('connected to database');
 });
+
